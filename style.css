@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* common css starts */
+    .common-button a {
+    background:#4caf4f;
+    padding: 14px 32px;
+   
+    border-radius: 6px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family:"Inter", sans-serif ;
+    font-size: 16px;
+    font-weight: 500;
+    transition:0.5s;
+    border: 1px solid transparent;
+    }
+    .common-button a:hover{
+        background:transparent;
+        color:#4caf4f;
+        border: 1px solid #4caf4f;
+    }
+
+/* common css ends */
+
+
+.nav-button a{
+    background:#4caf4f;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 6px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family:"Inter", sans-serif ;
+    font-size: 14px;
+    font-weight: 500;
+    transition:0.5s;
+    border: 1px solid transparent;
+    display: inline-block;
+    
+}
+.nav-button a:hover{
+    background:transparent;
+    color:#4caf4f;
+    border: 1px solid #4caf4f;
+}
+
+
+/* Navber part stats */
+nav{
+    background: #eef1f7;
+    padding: 22px 0px !important;
+}
+.navbar-nav{
+    column-gap: 50px;
+}
+ .nav-link{
+    font-family: "Inter", sans-serif ;
+    font-size: 16px;
+    font-weight:500;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    color:rgba(24,25,31,1)
+ }
+ .nav-link:hover{
+    color:rgb(173, 27, 27);
+
+ }
+
+/* Navber part ends */
+
+
+
+/* banner part start */
+.banner{
+    background: #eef1f7;
+    padding: 161px 0px;
+}
+.row{
+    align-items: center;
+}
+.banner h1{
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif ;
+    color:#4d4d4d
+}
+.banner h1 span{
+   color:#4caf4f
+}
+.banner p{
+    font-size: 16px;
+    color: #717171;
+    font-weight: 400;
+    font-family: "Inter", sans-serif ;
+    padding-top: 16px ;
+    padding-bottom: 32px;
+}
+
+
+/* banner part ends */
+
+
