@@ -18,10 +18,28 @@
     }
     .common-button a:hover{
         background:transparent;
-        color:#4caf4f;
+        color:#4caf4f;      
         border: 1px solid #4caf4f;
     }
+    .title{
+        text-align: center;
+    }
+    .title h2{ 
+        font-family:"Inter", sans-serif ;
+        font-size: 36px;
+        font-weight: 600;
+        color:#4D4D4D
+        }
+    .title p{ 
+    
+        font-family:"Inter", sans-serif ;
+        padding-bottom: 8px;
+        font-size: 16px;
+        font-weight: 400;
+        color:#4D4D4D
+        }
 
+        
 /* common css ends */
 
 
@@ -79,6 +97,7 @@ nav{
 }
 .row{
     align-items: center;
+
 }
 .banner h1{
     font-size: 64px;
@@ -98,7 +117,114 @@ nav{
     padding-bottom: 32px;
 }
 
-
 /* banner part ends */
+
+/* client part stars */
+.client{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+ .box{  
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: space-between;  
+    }
+/* client part ends */
+
+
+/* community part starts */
+.community{
+    padding-top: 40px 0px;
+    padding: 40px 0px;
+    
+}
+.community .title h2{
+    width: 542px;
+    margin: 0 auto;
+}
+.community .card{
+    width: 100% !important;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+   text-align: center;   +
+   margin-top: 17px;
+}
+.community .card .card-title{
+    font-size: 28px;
+    color: #717171;
+    font-weight: 900;
+    font-family: "Inter", sans-serif ;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+.community .card .card-text{
+    font-size: 16px;
+    color: #717171;
+    font-weight: 400;
+    font-family: "Inter", sans-serif ;
+}
+.community .card .card-body{
+    padding: 0 !important;
+}
+.card-img-top{
+    width: 20%;
+    margin: 0 auto;
+    
+}
+
+/* community part ends */
+
+
+/* service part starts */
+.service{
+    padding: 52px 0px;
+}
+.service .title2{
+    text-align: left;
+    
+}
+.title h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+.title p {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #4D4D4D;
+    padding: 32px 0px;
+}
+
+
+/* service part ends */
+
+/* member part ends */
+
+.member h5{
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+.member h5 span{
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #4CAF4f
+}
+.member p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4D4D4D;
+
+}
+/* member part ends */
+
 
 
